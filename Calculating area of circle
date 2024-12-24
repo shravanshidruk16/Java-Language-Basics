@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Program for calculating area of circle!!!");
+        System.out.println("Enter radius in float (in decimals): ");
+        float rad=sc.nextFloat();
+        float area = 3.14159265359f * rad * rad;
+        System.out.println("The area of Circle of given radius is: "+area);
+    }
+}
