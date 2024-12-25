@@ -1,0 +1,17 @@
+import java.util.*;
+    public class Main{
+        public static void main(String args[]){
+            System.out.println("Pre Increment and Post Increment");
+            int a = 10;
+            int b=a++;
+            System.out.println("Post increment: First value gets used and then changed");
+            System.out.println("a="+a);
+            System.out.println("b="+b);
+            int c=16;
+            int d=++c;
+            System.out.println("Pre Increment: First value gets changed and then used");
+            System.out.println("c="+c);
+            System.out.println("d="+d);
+            System.out.println("Similar logic is used for Decrement Operators.");
+        }
+    }
