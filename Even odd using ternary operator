@@ -1,0 +1,10 @@
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+        String type = ((num%2)==0) ? "even number" : "odd number";
+        System.out.print("The entered number by the user is "+num+" which is "+type);
+    }
+}
